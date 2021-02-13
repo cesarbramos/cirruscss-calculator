@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/main.css" />
+    <link rel="stylesheet" href="./static/dist/cirrus.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="row">
+        <div class="offset-3 col-6">
+          <div class="p-3 center">
+            <div class="card p-2">
+                <div class="calc-header pt-2">
+                    <input class="calc-result" readonly disabled type="text" id="display-result" />
+                  </div>
+                  <div class="divider"></div>
+                  <div class="calc-body">
+                      <div class="grid grid-cols-4 grid-gap-3">
+                          <div class="grid-c-3 grid-r-1 btn outline btn-danger" data-value="reset" data-operable="true" ="">CA</div>
+                          <div class="grid-c-1 grid-r-1 btn btn-dark" data-value="/" data-operable="true" >÷</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="7" >7</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="8" >8</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="9" >9</div>
+                          <div class="grid-c-1 grid-r-1 btn btn-dark" data-value="*" data-operable="true" >x</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="4" >4</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="5" >5</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="6" >6</div>
+                          <div class="grid-c-1 grid-r-1 btn btn-dark" data-value="-" data-operable="true" >-</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="1" >1</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="2" >2</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="3" >3</div>
+                          <div class="grid-c-1 grid-r-2 btn btn-dark u-text-center" data-value="+" data-operable="true"><span>+</span></div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value="0">0</div>
+                          <div class="grid-c-1 grid-r-1 btn" data-value=".">,</div>
+                          <div class="grid-c-1 grid-r-1 btn btn-dark" data-value="result" data-operable="true" >=</div>
+                      </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./static/app.js"></script>
+  </body>
+</html>

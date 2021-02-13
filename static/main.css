@@ -1,0 +1,12 @@
+.p-3 {
+    padding: 4.5rem;
+}
+
+:root {
+    --space-size: 0.25rem;
+}
+
+.mx-1 {
+    margin-left: var(--space-size);
+    margin-right: var(--space-size);
+}
